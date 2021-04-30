@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        label {
+            cursor: pointer;
+        }
+        textarea {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="jumbotron text-center">
+    <h1>Welcome to XML privacy portal</h1>
+    <p>Get your xml specification file</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>Upload your xml file here :</h2>
+            <div class="form-group">
+                <form id="xml-form" action="" method="post">
+                    <label for="input-file">Specify a file:</label><br>
+                    <input style="padding: 3px" type="file" id="input-file">
+                    <textarea id="content-target"></textarea>
+                    <input class="btn btn-primary" type="submit" value="submit" />
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <h2>Get specification file for your upload</h2>
+            <form id="xml-form2" action="" method="post">
+                Select masking !
+                <input class="btn btn-primary" type="submit" value="submit"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="assets/js/xmlForm.js"></script>
+</html>
