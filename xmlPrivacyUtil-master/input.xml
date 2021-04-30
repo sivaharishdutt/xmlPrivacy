@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personal>
+  <firstname>hritik</firstname>
+  <lastname>arora</lastname>
+  <passportNumber>231231231</passportNumber>
+  <pincode>495004</pincode>
+  <ipaddress>123.23.2.1</ipaddress>
+  <firstname>souvik</firstname>
+  <lastname>das</lastname>
+  <passportNumber>233431231</passportNumber>
+  <pincode>493432</pincode>
+  <ipaddress>323.33.2.1</ipaddress>
+  <firstname>harish</firstname>
+  <lastname>dutt</lastname>
+  <passportNumber>238731231</passportNumber>
+  <pincode>343434</pincode>
+  <ipaddress>787.66.2.1</ipaddress>
+</personal>
